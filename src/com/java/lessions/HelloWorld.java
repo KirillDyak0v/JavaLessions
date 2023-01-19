@@ -3,10 +3,13 @@ package com.java.lessions;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		int age = 18;
-		String name = "Kirill";
-		String space = " ";
-		System.out.println(name + space + age);
+		int value = 0;
+		while(value<5) {
+			System.out.println("Hello java! " + value);
+			value = value+1;
+			
+		}
+		
 	}
 
 }

@@ -3,7 +3,6 @@ package com.java.lessons;
 import java.util.Scanner;
 
 public class Lesson8 {
-
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in); 
 	int value;
@@ -13,5 +12,4 @@ public class Lesson8 {
 		}while(value!=5);
 		System.out.println("Вы ввели 5");
 	}
-
 }

@@ -2,7 +2,7 @@ package com.java.lessons;
 
 public class Lesson19 {
     public static void main (String[] args){
-        Human human1 = new Human("Vasea", 23);
+        Human human1 = new Human();
         human1.getInfo();
         
     
@@ -10,15 +10,15 @@ public class Lesson19 {
 }class Human{
     String name;
     int age;
-    public Human(String name, int age){
+    public Human(){
         System.out.println("Привет из первого конструктора");
         this.name = "Player01";
         this.age = 18;
     }
-    public Human(String name){
+    public Human(String name, int age){
         System.out.println("Привет из второго конструктора");
         this.name = name;
-       
+        this.age = age;
 
     }
     public void setName(String name){

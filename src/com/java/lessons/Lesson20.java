@@ -17,7 +17,7 @@ public class Lesson20 {
         this.name = name;
         numberPerson++;
     }public void info(){
-        System.out.println(this.name +","+this.age+"Num: "+numberPerson);
+        System.out.println(this.name +","+this.age+" Num: "+numberPerson);
     }
     
 }
